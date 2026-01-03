@@ -1,0 +1,32 @@
+@import "../../_globalColor";
+
+.footer-text {
+  text-align: center;
+  color: $subTitle !important;
+}
+
+.dark-mode {
+  color: $textColorDark !important;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+.footer-div {
+  text-align: center;
+  padding: 20px;
+
+  .footer-image {
+    width: 200px;       // adjust size
+    height: 200px;      // adjust size
+    border-radius: 50%; // make it circular
+    margin-bottom: 10px;
+    object-fit: cover;
+    border: 2px solid #fff; // optional border
+  }
+
+  .footer-text {
+    font-size: 16px;
+  }
+}
